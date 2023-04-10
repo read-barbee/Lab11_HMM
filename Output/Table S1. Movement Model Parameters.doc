@@ -1,0 +1,854 @@
+<table style="border-collapse:collapse; border:none;">
+<caption style="font-weight: bold; text-align:left;">Table S1. Hidden Markov movement model parameter estimates.</caption>
+<tr>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; text-align:left; ">Species</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Season</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Type</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Parameter</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">State</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Estimate</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; col7">LCL</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; col8">UCL</th>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Grizzly Bear</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Fall</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.012</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.011</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.011</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.643</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.629</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.743</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.010</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.010</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.011</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.726</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.709</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.743</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.124</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">3.063</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.717</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.017</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.068</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.543</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.672</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.627</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.717</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.516</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.488</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.543</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.572</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.650</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.639</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-2.689</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-2.835</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">4.088</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.748</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.858</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.639</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">3.851</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">3.615</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">4.088</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Grizzly Bear</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Spring</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.121</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.115</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.161</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">1.425</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">1.374</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">1.493</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.152</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.144</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.161</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">1.449</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">1.407</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">1.493</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.106</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">3.024</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.368</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.003</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.044</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.952</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.336</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.305</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.368</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.902</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.851</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.952</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-1.785</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-1.857</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.034</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-1.248</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-1.339</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">1.140</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.123</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.211</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.034</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">1.011</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.882</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">1.140</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Grizzly Bear</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Summer</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.013</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.013</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.012</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.801</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.789</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.919</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.011</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.011</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.012</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.903</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.887</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.919</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.140</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">3.057</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.581</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.012</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.053</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.495</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.535</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.489</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.581</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.474</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.454</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.495</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">11.739</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">10.476</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-13.556</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-7.963</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-8.504</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">9.990</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-15.046</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-16.535</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-13.556</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">9.352</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">8.714</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">9.990</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Wolf</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Fall</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.025</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.024</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.028</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.185</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.109</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.743</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.026</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.024</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.028</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.650</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.560</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.743</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-3.111</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-3.223</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.478</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.026</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.100</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.337</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.427</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.377</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.478</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.297</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.259</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.337</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.652</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.730</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.196</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-1.275</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-1.358</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.005</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.306</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.417</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.196</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.100</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.205</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.005</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Wolf</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Spring</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.034</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.033</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.035</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.456</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.384</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">3.129</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.033</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.031</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.035</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">3.038</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.950</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">3.129</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.065</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">2.996</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.588</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.028</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.110</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.417</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.546</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.504</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.588</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.384</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.351</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.417</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.867</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.930</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.264</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-1.312</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-1.384</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">-0.214</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.176</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.087</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.264</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.305</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.395</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">-0.214</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Wolf</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Summer</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.036</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.033</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.041</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.242</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.176</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.807</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.038</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.035</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.041</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.730</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.655</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.807</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.107</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">3.016</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.516</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.055</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.038</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.356</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.468</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.421</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.516</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.324</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.292</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.356</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.501</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.569</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.047</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-1.353</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-1.428</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">-0.097</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.049</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.145</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.047</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.186</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.276</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">-0.097</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">Wolf</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Winter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.023</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.022</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.023</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">1.824</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">1.791</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.253</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.022</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.021</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.023</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Step Length SD</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.213</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">2.173</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">2.253</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.081</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">3.035</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.558</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Mean</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-0.008</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-0.055</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.449</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.531</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">0.504</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">0.558</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Movement Parameter</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Turn Angle Concentration</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.428</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">0.407</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">0.449</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.695</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.734</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.246</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Intercept</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">-1.212</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">-1.254</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">-0.138</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Slow to Fast</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.302</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">-0.358</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">-0.246</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; border-bottom: double; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; "></td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; ">Transition Coefficient</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; ">Cosine Hour</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; ">Fast to Slow</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; ">-0.192</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; col7">-0.245</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; background-color:#f2f2f2; col8">-0.138</td>
+</tr>
+</table>
+
