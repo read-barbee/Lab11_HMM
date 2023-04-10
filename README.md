@@ -2,7 +2,7 @@ Lab 11: Behavioral-based SSF Models: Hidden Markov Model based state
 dependence
 ================
 Jesse Whittington and Mark Hebblewhite
-April 01, 2023
+April 10, 2023
 
 ``` r
 #function to install and load required packages
@@ -76,13 +76,17 @@ ggplot(gps, aes(x, y, colour = species)) +geom_point()
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-# \## Query out just some grizzly bear data from 1 season
+``` r
+### Query out just some grizzly bear data from 1 season
+#table(gps$ID)
+#table(gps$season)
+#gpsGriz <- gps %>% filter(species == "grizzly bear")
+#gpsGriz2 <- gpsGriz %>%filter(season == "summer")
+#table(gpsGriz$species, gpsGriz$season)
+```
 
-\#table(gps$ID) #table(gps$season) \#gpsGriz \<- gps %\>% filter(species
-== “grizzly bear”) \#gpsGriz2 \<- gpsGriz %\>%filter(season == “summer”)
-\#table(gpsGriz$species, gpsGriz$season)
-
-## Process gps data and calculate night/day, delta in time, and calculate hours in the cosine of radians - we will see what this does below.
+Process gps data and calculate night/day, delta in time, and calculate
+hours in the cosine of radians - we will see what this does below.
 
 ``` r
 gps.1 <- gps %>% mutate(ID = paste(species, id), .before = date.time) 
@@ -119,7 +123,7 @@ night.cos = cos(hour.rad)
 plot(night.cos, hour.d)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 ## so 0.0 = about 6 and 18 hour. -1 is noon, 1 is midnight.
@@ -256,49 +260,49 @@ for (j in 1:n.data){
     ##   <int> <chr>        <chr> 
     ## 1     1 grizzly bear fall
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species      season
     ##   <int> <chr>        <chr> 
     ## 1     2 grizzly bear spring
 
-![](README_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species      season
     ##   <int> <chr>        <chr> 
     ## 1     3 grizzly bear summer
 
-![](README_files/figure-gfm/unnamed-chunk-6-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species season
     ##   <int> <chr>   <chr> 
     ## 1     4 wolf    fall
 
-![](README_files/figure-gfm/unnamed-chunk-6-4.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species season
     ##   <int> <chr>   <chr> 
     ## 1     5 wolf    spring
 
-![](README_files/figure-gfm/unnamed-chunk-6-5.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-5.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species season
     ##   <int> <chr>   <chr> 
     ## 1     6 wolf    summer
 
-![](README_files/figure-gfm/unnamed-chunk-6-6.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-6.png)<!-- -->
 
     ## # A tibble: 1 × 3
     ##     xxx species season
     ##   <int> <chr>   <chr> 
     ## 1     7 wolf    winter
 
-![](README_files/figure-gfm/unnamed-chunk-6-7.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-7.png)<!-- -->
 
 These plots show the probability of being in each of the 2 states (fast,
 slow) as a function of the cosine of time of day. 0 =
@@ -330,7 +334,7 @@ summary(as.data.frame(tmp.move))
 hist(tmp.move$step)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 ## More moveHMM Plots
@@ -409,7 +413,7 @@ str(gps)
 ggplot(gps, aes(night.cos, p1, colour = species)) +geom_point() + facet_wrap(night ~ . )
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
 ggplot(gps, aes(log(step), p1, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
@@ -417,7 +421,7 @@ ggplot(gps, aes(log(step), p1, colour = species)) + stat_smooth(method="glm", me
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](README_files/figure-gfm/unnamed-chunk-8-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
 
 ``` r
 ggplot(gps, aes(log(step), p2, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
@@ -425,7 +429,7 @@ ggplot(gps, aes(log(step), p2, colour = species)) + stat_smooth(method="glm", me
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](README_files/figure-gfm/unnamed-chunk-8-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
 
 ## So Behavioral state 2 is FAST, and behavioral state 1 is SLOW
 
@@ -433,7 +437,7 @@ ggplot(gps, aes(log(step), p2, colour = species)) + stat_smooth(method="glm", me
 ggplot(gps, aes(x, y, colour = p2, size = p2)) + geom_point() + facet_wrap(night ~ . )
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ## SSF Movement Behavior Summarization and Preparation for SSF models
 
@@ -472,7 +476,7 @@ ggplot(b0, aes(step)) +
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](README_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 ## Make a data frame with these summaries by species
@@ -1046,7 +1050,7 @@ Fast
 -0.044
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">
-0.953
+0.952
 </td>
 </tr>
 <tr>
@@ -1094,7 +1098,7 @@ Fast
 0.852
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">
-0.953
+0.952
 </td>
 </tr>
 <tr>
@@ -1602,7 +1606,7 @@ Slow
 -3.223
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">
-0.478
+0.479
 </td>
 </tr>
 <tr>
@@ -1647,10 +1651,10 @@ Slow
 0.427
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col7">
-0.377
+0.376
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; col8">
-0.478
+0.479
 </td>
 </tr>
 <tr>
@@ -2203,7 +2207,7 @@ Fast
 0.055
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col7">
--0.038
+-0.039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; col8">
 0.356
@@ -2718,7 +2722,7 @@ m1 <- move.list[[7]]
 plotStationary(m1, plotCI = TRUE)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 ``` r
 # Modify function to extract plot data
@@ -2804,7 +2808,7 @@ fnc.plot <- function (m, col = NULL, plotCI = TRUE, alpha = 0.95) {
 p <- fnc.plot(m1, plotCI = TRUE)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-17-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-18-2.png)<!-- -->
 
 ``` r
 p1 <- tibble(State = 'Slow', night.cos = p$tempCovs[ ,1], prob = p$probs[ , 1], lcl = p$lci[ , 1], ucl = p$uci[ , 1])
@@ -2815,7 +2819,7 @@ ggplot(p.all, aes(night.cos, prob, ymin = lcl, ymax = ucl, group = State, fill =
   geom_line()
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-17-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-18-3.png)<!-- -->
 
 ## 3a. Extract plot data
 
@@ -2836,31 +2840,31 @@ for (xxx in 1:nrow(df.species.season)){
 
     ## [1] 1
 
-![](README_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
 
     ## [1] 2
 
-![](README_files/figure-gfm/unnamed-chunk-18-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-2.png)<!-- -->
 
     ## [1] 3
 
-![](README_files/figure-gfm/unnamed-chunk-18-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-3.png)<!-- -->
 
     ## [1] 4
 
-![](README_files/figure-gfm/unnamed-chunk-18-4.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-4.png)<!-- -->
 
     ## [1] 5
 
-![](README_files/figure-gfm/unnamed-chunk-18-5.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-5.png)<!-- -->
 
     ## [1] 6
 
-![](README_files/figure-gfm/unnamed-chunk-18-6.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-6.png)<!-- -->
 
     ## [1] 7
 
-![](README_files/figure-gfm/unnamed-chunk-18-7.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-19-7.png)<!-- -->
 
 ``` r
 df.plot <- bind_rows(plot.list)
@@ -2884,7 +2888,7 @@ ggplot(a, aes(Hour, prob, ymin = lcl, ymax = ucl, group = State, fill = State, c
   theme(panel.grid = element_blank(), axis.text = element_text(colour = 'black')) #, axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
 ggsave('Output/Fig. S1. State probability vs night.png', width = 6, height = 5, scale = 0.9)
