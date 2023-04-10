@@ -1,15 +1,8 @@
----
-title: "Lab 11: Behavioral-based SSF Models: Hidden Markov Model based state dependence"
-author: "Jesse Whittington and Mark Hebblewhite"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: github_document
----
-
-```{r setup, include=FALSE}
+## ----setup, include=FALSE-------------------------------------------------------------------------------
 knitr::opts_chunk$set(echo = TRUE)
-```
 
-```{r eval=TRUE, message=FALSE, results='hide'}
+
+## ----eval=TRUE, message=FALSE, results='hide'-----------------------------------------------------------
 
 #function to install and load required packages
 ipak <- function(pkg){
@@ -23,40 +16,32 @@ packages <- c("tidyr","ggplot2","dplyr","stringr","lubridate","purrr","sf","terr
 
 #run function to install packages
 ipak(packages)
-```
-## Broad Settings
 
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 options(stringsAsFactors=FALSE)
 crs.11 <- 26911         # EPSG:26911  UTM Zone 11 N, NAD 83
 crs.latlong <- 4326     # EPSG:4326   LatLong
 crs.sp.11 <- CRS("+proj=utm +zone=11 +ellps=GRS80 +datum=NAD83 +units=m")  # used by older sp package (which amt uses)
-```
 
 
-## 1.Import and Inspect Data
-
-
-
-```{r}
+## -------------------------------------------------------------------------------------------------------
 load('Data/Data 00 GPS Data.RData')
 head(gps)
 table(gps$species)
 unique(gps$id)
 ggplot(gps, aes(x, y, colour = species)) +geom_point()
-```
-```{r eval=FALSE}
-### Query out just some grizzly bear data from 1 season
-#table(gps$ID)
-#table(gps$season)
-#gpsGriz <- gps %>% filter(species == "grizzly bear")
-#gpsGriz2 <- gpsGriz %>%filter(season == "summer")
-#table(gpsGriz$species, gpsGriz$season)
-```
 
-Process gps data and calculate night/day, delta in time, and calculate hours in the cosine of radians - we will see what this does below. 
+## ----eval=FALSE-----------------------------------------------------------------------------------------
+## ### Query out just some grizzly bear data from 1 season
+## #table(gps$ID)
+## #table(gps$season)
+## #gpsGriz <- gps %>% filter(species == "grizzly bear")
+## #gpsGriz2 <- gpsGriz %>%filter(season == "summer")
+## #table(gpsGriz$species, gpsGriz$season)
 
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 gps.1 <- gps %>% mutate(ID = paste(species, id), .before = date.time) 
 gps.1 <- gps.1 %>% mutate(Hour = hour(date.time.mst), Min = minute(date.time.mst)) %>% 
   mutate(Hour.d = Hour + (Min / 60)) %>% 
@@ -95,23 +80,14 @@ head(gps.2)
 
 data.list <- vector(mode = 'list', length = n.data)
 move.list <- vector(mode = 'list', length = n.data)
-```
- 
-## 2. Prepare the data for moveHMM:prepData
 
-Select a subset of data from this table for each j - seasonXspecies combination - (i, ID, x, y, etc), convert XY to kilometers, filter out missed locations (dt.min is finite), then pass to moveHMM
 
-### Key moveHMM functions
- -`moveHMM::prepData`
- -`fitHMM`
- -`plotStationary`
-
-```{r}
+## -------------------------------------------------------------------------------------------------------
 data.list <- vector(mode = 'list', length = n.data)
 move.list <- vector(mode = 'list', length = n.data)
-```
 
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 for (j in 1:n.data){
   print(df.species.season[j,])
   tmp <- gps.2 %>% filter(xxx == j)
@@ -149,11 +125,9 @@ for (j in 1:n.data){
   data.list[[j]] <- tmp2
   
 }
-```
 
- These plots show the probability of being in each of the 2 states (fast, slow) as a function of the cosine of time of day. 0 = 
 
-```{r}
+## -------------------------------------------------------------------------------------------------------
 par(mfrow = c(1,1))
 par(ask=F)
 summary(as.data.frame(tmp.move))
@@ -176,11 +150,9 @@ gps <- gps.3
 str(gps)
 #save(gps, animal, juvenile, df.species.season, move.list, file = 'Data 01 GPS DataMoveState.RData')
 
-```
 
-## Exploring Behavioral States
 
-```{r warning = FALSE}
+## ----warning = FALSE------------------------------------------------------------------------------------
 par(mfrow = c(1,1))
 str(gps)
 ggplot(gps, aes(night.cos, p1, colour = species)) +geom_point() + facet_wrap(night ~ . )
@@ -188,17 +160,14 @@ ggplot(gps, aes(night.cos, p1, colour = species)) +geom_point() + facet_wrap(nig
 ggplot(gps, aes(log(step), p1, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
 
 ggplot(gps, aes(log(step), p2, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
-```
 
-## So Behavioral state 2 is FAST, and behavioral state 1 is SLOW
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 ggplot(gps, aes(x, y, colour = p2, size = p2)) + geom_point() + facet_wrap(night ~ . )
 
-```
 
-## SSF Movement Behavior Summarization and Preparation for SSF models
 
-```{r}
+## -------------------------------------------------------------------------------------------------------
 # Quick function for summarization
 simpleCap <- function(x) {          
   tmp <- sapply(x, function(xxxx){
@@ -222,10 +191,9 @@ ggplot(b0, aes(step)) +
 
 ## Make a data frame with these summaries by species
 df.species.season <- df.species.season %>% mutate(species = simpleCap(species), season = simpleCap(season))
-```
-### 2a. Extract parameters ####
 
-```{r warning=FALSE}
+
+## ----warning=FALSE--------------------------------------------------------------------------------------
 result.list <- vector(mode = 'list', length = nrow(df.species.season))
 for (xxx in 1:nrow(df.species.season)){
   print(xxx)
@@ -272,14 +240,9 @@ for (xxx in 1:nrow(df.species.season)){
 }
 
 rm(df, m, m.ci, m1, m1.ci, m1.tb, m2.tb, df.list)
-```
-
-## Confidence intervals 
-
-Now that you are convinced you have a defensible HMM, you can also get confidence intervals for your parameter estimates `CI(m)`
 
 
-```{r}
+## -------------------------------------------------------------------------------------------------------
 m.move.tidy <- bind_rows(result.list)
 m.move.tidy <- m.move.tidy %>% mutate(Estimate = sprintf("%.3f", Estimate ), lcl = sprintf("%.3f", lcl), ucl = sprintf("%.3f", ucl)) %>% 
   mutate(Estimate = gsub('NA', '', Estimate), lcl = gsub('NA', '', lcl), ucl = gsub('NA', '', ucl))
@@ -287,47 +250,37 @@ m.move.tidy <- m.move.tidy %>% mutate(Estimate = sprintf("%.3f", Estimate ), lcl
 m.move.tidy <- m.move.tidy %>% dplyr::rename(LCL = lcl, UCL = ucl, Type = Group)
 
 head(m.move.tidy)
-```
-## 2b. Export Table to a word file - very cool 
- - using `sjPlot::tab_df()`
 
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 ?tab_df()
 tab_df(m.move.tidy,
        alternate.rows = TRUE, # this colors the rows
        title = "Table S1. Hidden Markov movement model parameter estimates.", #always give
        digits = 3,
        file = "Output/Table S1. Movement Model Parameters.doc")
-```
 
-## 2c. Summarise descriptive movement data 
- View - night cosine
 
-```{r}
+## -------------------------------------------------------------------------------------------------------
 a <- m.move.tidy %>% filter(Parameter == 'Cosine Hour', State == 'Fast to Slow')
 print(a)
-```
-Summary for probability of fast
-```{r}
+
+
+## -------------------------------------------------------------------------------------------------------
 a <- gps %>% mutate(Fast = ifelse(p2 >= 0.5, 1, 0)) 
 b1 <- a %>% group_by(species) %>% summarise(PropFast = mean(Fast), .groups = 'drop')
 print(b1)
 
 b2 <- a %>% group_by(species, season) %>% summarise(PropFast = mean(Fast), .groups = 'drop')
 print(b2)
-```
 
 
-# Mean step length and turn angle by state
-
-```{r}
+## -------------------------------------------------------------------------------------------------------
 b1 <- a %>% group_by(species, Fast) %>% summarise(StepMean = mean(step, na.rm = TRUE), StepSD = sd(step, na.rm = TRUE), .groups = 'drop')
 print(b1)
-```
 
-## 3a. PLOT Stationary State Probabilities 
 
-```{r}
+## -------------------------------------------------------------------------------------------------------
 xxx <- 1
 m1 <- move.list[[7]]
 plotStationary(m1, plotCI = TRUE)
@@ -419,11 +372,9 @@ p.all <- bind_rows(p1, p2)
 ggplot(p.all, aes(night.cos, prob, ymin = lcl, ymax = ucl, group = State, fill = State, col = State)) + 
   geom_ribbon(alpha = 0.5) +
   geom_line()
-```
 
-## 3a.  Extract plot data 
 
-```{r warning=FALSE}
+## ----warning=FALSE--------------------------------------------------------------------------------------
 plot.list <- vector(mode = 'list', length = nrow(df.species.season))
 for (xxx in 1:nrow(df.species.season)){
   print(xxx)
@@ -436,9 +387,9 @@ for (xxx in 1:nrow(df.species.season)){
   p.all <- p.all %>% mutate(Species = df.species.season$species[xxx], Season = df.species.season$season[xxx], .before = State)
   plot.list[[xxx]] <- p.all
 }
-```
 
-```{r}
+
+## -------------------------------------------------------------------------------------------------------
 df.plot <- bind_rows(plot.list)
 df.plot <- df.plot %>% mutate(Hour = acos(night.cos) * 24 / (2*pi)) %>% 
   mutate(Season = factor(Season, levels = c('Spring', 'Summer', 'Fall', 'Winter')))
@@ -459,9 +410,4 @@ ggplot(a, aes(Hour, prob, ymin = lcl, ymax = ucl, group = State, fill = State, c
   ylab('Stationary state probability') +
   theme(panel.grid = element_blank(), axis.text = element_text(colour = 'black')) #, axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
 ggsave('Output/Fig. S1. State probability vs night.png', width = 6, height = 5, scale = 0.9)
-```
 
-```{r eval=FALSE, include=FALSE}
- 
-knitr::purl(input = "README.Rmd", output = "lab11.R", documentation = 1)
-```
