@@ -89,7 +89,7 @@ df.species.season <- gps.1 %>% group_by(species, season) %>%
 n.data = nrow(df.species.season)
 df.species.season
 
-# link tibble with previous datset (gps.1) by speciesXseason combination
+# link tibble with previous datset (gps.1) by speciesXseason combination. Add X Y data to list
 gps.2 <- inner_join(df.species.season, gps.1, by = c('species', 'season'))
 head(gps.2)
 
@@ -181,17 +181,22 @@ str(gps)
 ## Exploring Behavioral States
 
 ```{r warning = FALSE}
+#these plots help figure out what the states might mean biologically
+#points in night vs day
 par(mfrow = c(1,1))
 str(gps)
 ggplot(gps, aes(night.cos, p1, colour = species)) +geom_point() + facet_wrap(night ~ . )
 
+#probability of state 1 at night vs day
 ggplot(gps, aes(log(step), p1, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
 
+#probability in state to at night vs day
 ggplot(gps, aes(log(step), p2, colour = species)) + stat_smooth(method="glm", method.args = list(family="binomial")) + facet_wrap(night ~ . )
 ```
 
 ## So Behavioral state 2 is FAST, and behavioral state 1 is SLOW
 ```{r}
+#locations sized and colored by probability of being in state 2
 ggplot(gps, aes(x, y, colour = p2, size = p2)) + geom_point() + facet_wrap(night ~ . )
 
 ```
@@ -208,7 +213,7 @@ simpleCap <- function(x) {
   return(tmp)
 }
 
-## Step lengths by behavioral stats by species
+## Step lengths by behavioral states by species. classify as fast or slow based on probability cutpoint of 0.5
 b0 <- gps %>% filter(is.finite(step) & step < 15) %>% mutate(state = ifelse(p1 >= 0.5, '1. Slow', '2. Fast'))
 b <- b0  %>% 
   group_by(species, state) %>% 
@@ -292,7 +297,7 @@ head(m.move.tidy)
  - using `sjPlot::tab_df()`
 
 ```{r}
-?tab_df()
+#?tab_df()
 tab_df(m.move.tidy,
        alternate.rows = TRUE, # this colors the rows
        title = "Table S1. Hidden Markov movement model parameter estimates.", #always give
